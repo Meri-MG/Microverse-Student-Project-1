@@ -1,8 +1,25 @@
 body {
-  background-color: blue;
   font-family: Roboto, sans-serif;
-  font-size: 18px;
-  font-weight: 500;
+  width: 375px;
+}
+
+.wrapper {
+  background-color: #191765;
+  width: 375px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0 24px 0;
+}
+
+.container {
+  width: 327px;
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 a {
@@ -12,11 +29,14 @@ a {
 .logo {
   color: #fff;
   width: 81px;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .fa-bars {
   color: #acb7c3;
   width: 33.33px;
+  font-size: 25px;
 }
 
 h1 {
@@ -25,6 +45,7 @@ h1 {
   font-weight: 700;
   font-size: 48px;
   line-height: 72px;
+  text-align: center;
 }
 
 .intro h2 {
@@ -33,6 +54,7 @@ h1 {
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
+  text-align: center;
 }
 
 .intro p {
@@ -42,6 +64,7 @@ h1 {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
+  text-align: center;
 }
 
 hr {
@@ -57,6 +80,7 @@ h3 {
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
+  padding-top: 38px;
 }
 
 .info-parag {
@@ -67,7 +91,24 @@ h3 {
   line-height: 24px;
 }
 
+.flex-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
 .icons a {
   color: #fff;
   width: 18px;
+  padding: 60px 0 38px 20px;
+}
+
+.flex-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
