@@ -1,3 +1,73 @@
+body {
+  background-color: blue;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: #fff;
+  width: 81px;
+}
+
 .fa-bars {
-  color: black;
+  color: #acb7c3;
+  width: 33.33px;
+}
+
+h1 {
+  width: 327px;
+  color: #7d73fc;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.intro h2 {
+  width: 327px;
+  color: #edecff;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.intro p {
+  width: 327px;
+  height: 170px;
+  color: #c8c8d4;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+hr {
+  width: 327px;
+  display: block;
+  color: #646369;
+  height: 1px;
+}
+
+h3 {
+  width: 107px;
+  color: #7d73fc;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.info-parag {
+  width: 73.55px;
+  color: #f5f5ff;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.icons a {
+  color: #fff;
+  width: 18px;
 }
