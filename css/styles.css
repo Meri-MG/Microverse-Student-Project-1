@@ -1,53 +1,73 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 body {
   font-family: Roboto, sans-serif;
   width: 375px;
 }
-
+ 
 .wrapper {
+  background-image: url(../images/topcircles.png);
+  background-repeat: no-repeat;
   background-color: #191765;
   width: 375px;
 }
 
 nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 24px 0 24px 0;
 }
-
+  
 .container {
   width: 327px;
   margin-left: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
-
+  
 a {
   text-decoration: none;
 }
-
+  
 .logo {
   color: #fff;
   width: 81px;
   font-weight: 500;
   font-size: 18px;
 }
-
+  
 .fa-bars {
-  color: #acb7c3;
+  color: #fff;
   width: 33.33px;
   font-size: 25px;
 }
-
+  
 h1 {
   width: 327px;
   color: #7d73fc;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 35px;
   line-height: 72px;
   text-align: center;
 }
-
+  
 .intro h2 {
   width: 327px;
   color: #edecff;
@@ -55,8 +75,9 @@ h1 {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
+  margin-top: 12px;
 }
-
+  
 .intro p {
   width: 327px;
   height: 170px;
@@ -66,14 +87,14 @@ h1 {
   line-height: 28px;
   text-align: center;
 }
-
+  
 hr {
   width: 327px;
-  display: block;
-  color: #646369;
+  background-color: #646369;
+  border: none;
   height: 1px;
 }
-
+  
 h3 {
   width: 107px;
   color: #7d73fc;
@@ -82,7 +103,7 @@ h3 {
   line-height: 24px;
   padding-top: 38px;
 }
-
+  
 .info-parag {
   width: 73.55px;
   color: #f5f5ff;
@@ -90,25 +111,34 @@ h3 {
   font-size: 15px;
   line-height: 24px;
 }
-
+  
 .flex-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-
+  
 .box {
   padding-right: 20px;
   padding-left: 20px;
 }
-
+  
 .icons a {
   color: #fff;
   width: 18px;
   padding: 60px 0 38px 20px;
 }
-
+  
 .flex-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
