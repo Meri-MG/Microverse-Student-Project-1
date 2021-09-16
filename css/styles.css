@@ -1,0 +1,115 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.wrapper {
+  background-image: url(../images/topcircles.png);
+  background-repeat: no-repeat;
+  background-color: #191765;
+  max-width: 375px;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 327px;
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: #fff;
+  width: 81px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.fa-bars {
+  color: #fff;
+  width: 33.33px;
+  font-size: 25px;
+}
+
+h1 {
+  max-width: 327px;
+  color: #7d73fc;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 72px;
+  text-align: center;
+}
+
+.headline h2 {
+  max-width: 327px;
+  color: #edecff;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.headline p {
+  max-width: 327px;
+  height: 170px;
+  color: #c8c8d4;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+hr {
+  width: 327px;
+  background-color: #646369;
+  border: none;
+  height: 1px;
+}
+
+.info-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-header {
+  width: 107px;
+  color: #7d73fc;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  padding-top: 38px;
+}
+
+.list {
+  width: 73.55px;
+  color: #f5f5ff;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.flex-icons ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 98px 38px 98px;
+}
+
+.flex-icons li a {
+  color: #fff;
+  width: 18px;
+}
