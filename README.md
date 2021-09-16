@@ -14,7 +14,15 @@ Checked code with the Linters and Autoprefixer.
 https://meri-mg.github.io/Microverse-Student-Project-1/
 
 # Getting Started
-N/A
+If you are interested in setting up this repository locally in your machine, I suggest you to follow next steps:
+- Choose the repository and fork it to your Github account. It will create a copy of this repository.
+- Choose a folder in your local machine where you want this repository to be copied.
+- Afterwards open the terminal in your machine and get ready to clone repository. Make sure you direct your machine to the folder which you created for the repository.
+- Run the clone command
+- Make sure to attach link to the command that is generated in your forked repository and not in the main one. It should look similar to this git clone https://github.com/smithj/azure-docs.git
+- Enter your github credentials if prompted.
+- The clone command runs and downloads a copy of forked repository in your machine locally.
+- Now You can explore the folder, see structure, check the code and write any changes if you want.
 
 # Author
 GitHub: Meri-MG 
