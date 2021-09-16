@@ -38,5 +38,5 @@ Give a star if you like this project!
 Thanks to my Learning Partners for support!
 
 # License
-N/A
+This project is [MIT](https://mit-license.org/) licensed.
 
